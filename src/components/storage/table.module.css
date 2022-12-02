@@ -1,0 +1,8 @@
+.table {
+  display: flex;
+  gap: 6vw;
+  justify-content: space-between;
+}
+.table:last-child {
+  width: max-content;
+}

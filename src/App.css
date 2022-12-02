@@ -1,0 +1,48 @@
+:root {
+  --bg-color: #333333;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  background: var(--bg-color);
+}
+button {
+  cursor: pointer;
+  color: white;
+  border-style: outset;
+  padding: 5px;
+  background: #5762d5;
+  width: fit-content;
+  font-size: 12px;
+}
+.table-colum {
+  width: fit-content;
+}
+.container {
+  width: fit-content;
+  margin: 0 auto;
+}
+.btn-top {
+  display: flex;
+  justify-content: space-between;
+}
+.lfColum {
+  width: 131px;
+}
+.RdColum {
+  width: 75px;
+}
+th {
+  padding: 3px 15px;
+}
+td {
+  text-align: center;
+  padding: 3px 15px;
+}
+tr {
+  border: 1px solid white;
+}
